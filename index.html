@@ -525,11 +525,35 @@ tune the model by matching it against risk ratings the business agrees are accur
         <h4>0</h4>
       </div>
     </section>
+	
+	<!-- Content Area -->
+<div class="content-area">
+    <!-- Your OWASP graphic display and other content here -->
+
+    <!-- Text Block for User Context -->
+    <div>
+        <h3>Asset Context</h3>
+        <p>Please provide any relevant context or additional information about the asset:</p>
+        <textarea class="form-control" id="assignmentContext" name="assignmentContext" rows="5"></textarea>
+    </div>
+</div>
+
+<!-- Project Text Box Input -->
+<div style="text-align: center; padding: 1px;">
+  <label for="assetName">Asset Name:</label>
+  <input type="text" id="assetName" name="assetName">
+</div>
 
 <!-- Project Text Box Input -->
 <div style="text-align: center; padding: 1px;">
   <label for="analystName">Analyst Name:</label>
   <input type="text" id="analystName" name="analystName">
+</div>
+
+<!-- Project Text Box Input -->
+<div style="text-align: center; padding: 1px;">
+  <label for="AssetOwnerName">Asset Owner Name:</label>
+  <input type="text" id="AssetOwnerName" name="AssetOwnerName">
 </div>
 
 <!-- Application or Service Name Text Box Input -->
@@ -544,6 +568,11 @@ tune the model by matching it against risk ratings the business agrees are accur
   <input type="text" id="issueId" name="issueId">
 </div>
 
+<!-- Project Text Box Input -->
+<div style="text-align: center; padding: 1px;">
+  <label for="CVE">Associated CVE(s) (Seperate by comma):</label>
+  <input type="text" id="CVE" name="CVE">
+</div>
 
     <!-- Save Project Buttons -->
     <div style="text-align: center; padding: 20px;">
